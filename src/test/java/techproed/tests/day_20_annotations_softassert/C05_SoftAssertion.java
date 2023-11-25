@@ -14,6 +14,7 @@ public class C05_SoftAssertion {
 
         softAssert.assertEquals(2,3);//Junit deki gibi önce accepted değil actual i ister
 
+        softAssert.assertAll();//assertALL demezsek softassert çalışmaz
 
 
     }
