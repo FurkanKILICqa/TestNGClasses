@@ -39,7 +39,7 @@ public class C03_Ignore {
     }
 
 
-    @Test
+    @Test(enabled = false)//artık bu method çalıştırılmayacak bunu yoruma almak gibi birşey (disabled gibi)
     public void facebookTest() {//ikinci çalışan
 
         driver.get("https://www.facebook.com/?locale=tr_TR");
