@@ -6,7 +6,9 @@ import org.testng.asserts.SoftAssert;
 
 public class C05_SoftAssertion {
 
-//Normal assrtionda fail olunca durur soft assertionda ise bitene kadar çalıştırır
+    //Normal assrtionda fail olunca durur soft assertionda ise bitene kadar çalıştırır
+    //Softassertion u eğer genel bir sonucu almak istiyorsak kullanırız eğer hataları düzelte düzelte ilerlemek istiyorsak
+    //hard assertion (junit de kullandığımız) kullanmalıyız
     @Test
     public void softAssertionTest() {
 
