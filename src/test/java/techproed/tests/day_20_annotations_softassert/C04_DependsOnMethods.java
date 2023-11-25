@@ -15,6 +15,12 @@ public class C04_DependsOnMethods {
     //    test02 den once test01 calisir
     //    Eger test01 basarili ise test02 calisir.
     //    Eget test01 basarisiz ise, test02 IGNORE edilir
+
+    /*
+        Test NG de DependsOnMethods ozelligini kullanarak bazi testlerin bagimli oldugu
+        diger testlerin basarili olmasi durumuna göre calistirabilirsiniz
+        DependsOnMethods baglandigi testin sonucuna bakar, passed olursa calisir fail olursa hic calismaz
+     */
     WebDriver driver;
 
     @BeforeClass
