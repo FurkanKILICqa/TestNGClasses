@@ -9,7 +9,9 @@ public class C05_SoftAssertion {
     @Test
     public void softAssertionTest() {
 
+        //Öncelikle soft assert class ından bir object oluşturmalıyız bu obje Test NG den gelir
         SoftAssert softAssert = new SoftAssert();
+
 
     }
 }
