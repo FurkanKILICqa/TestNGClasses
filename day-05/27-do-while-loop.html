@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do While</title>
+  </head>
+  <body>
+    <input type="number" id="txtNum" />
+    <button onclick="calculate()">Calculate</button>
+
+    <h3 id="result"></h3>
+
+    <script>
+      function calculate() {
+        // num = 12255;
+        // num = 1225
+        // num = 122
+        // num = 12
+        // num = 1
+        // num = 0
+
+        const txtNum = document.querySelector("#txtNum");
+        let num = txtNum.value;
+        let toplam = 0;
+
+        do {
+            // num değişkeninin son hanesini elde etmek için
+            // 10 a bölümünden kalanı buluyoruz.
+          const sonBasamak = num % 10;
+
+          // son haneleri toplayarak en son tüm haneleri toplamış oluyoruz
+          toplam = toplam + sonBasamak;
+
+          // num değişkeninin son hanesini yok etmek için önce 10'a bölüyoruz
+          // sonra Math.floor komutu ile virgülden sonraki kısmı siliyoruz
+          num = Math.floor(num / 10);
+        } while (num > 0);
+
+        document.querySelector("#result").innerHTML = toplam;
+      }
+    </script>
+  </body>
+</html>
