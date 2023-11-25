@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bdae7ec-1f60-4680-ac48-314b8e5baafe" name="Changes" comment="" />
+    <list default="true" id="7bdae7ec-1f60-4680-ac48-314b8e5baafe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_20_annotations_softassert/C03_Ignore.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C02_Priority">
+  <component name="RunManager" selected="TestNG.C03_Ignore">
     <configuration name="C01_Notasyonlar" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
@@ -94,8 +96,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C03_Ignore" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch189TestNGDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.day_20_annotations_softassert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests.day_20_annotations_softassert" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_20_annotations_softassert.C03_Ignore" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_Ignore.youtubeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch189TestNGDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.day_20_annotations_softassert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests.day_20_annotations_softassert" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_20_annotations_softassert.C03_Ignore" />
+      <option name="METHOD_NAME" value="youtubeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C03_Ignore" />
+        <item itemvalue="TestNG.C03_Ignore.youtubeTest" />
         <item itemvalue="TestNG.C02_Priority" />
         <item itemvalue="TestNG.C02_Priority.youtubeTest" />
         <item itemvalue="TestNG.C01_Notasyonlar" />
