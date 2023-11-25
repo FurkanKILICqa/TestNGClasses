@@ -14,7 +14,9 @@ public class C02_Priority {
     //Test NG de natural order a göre çalışır;
     //Eğer sıra belirtmek istiyorsak priority dememiz lazım
     //Eğer priority belirlemezsek otomatikmen olur
-
+    //Default olarak sifir oldugu icin ikinci olarak bu method calisti
+    //priority 2 oldugu icin en son bu method calisti
+    //prioritysi en kücük olan test methodu bu oldugu icin en önce bu calisti
     WebDriver driver;
 
     @BeforeMethod
