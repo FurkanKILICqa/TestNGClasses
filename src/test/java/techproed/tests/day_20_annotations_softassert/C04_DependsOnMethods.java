@@ -5,7 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -44,7 +46,8 @@ public class C04_DependsOnMethods {
         WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
         searchBox.sendKeys("iphone");
         searchBox.submit();
-        Assert.assertEquals(2,3);
+        Assert.assertEquals(2,3);//Bilerek hata aldık
+
 
     }
 
@@ -58,4 +61,8 @@ public class C04_DependsOnMethods {
     }
 
 
+    @AfterClass
+    public void afterClass() {
+        driver.quit();
+    }
 }
