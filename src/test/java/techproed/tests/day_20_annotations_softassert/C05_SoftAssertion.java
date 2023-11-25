@@ -12,7 +12,8 @@ public class C05_SoftAssertion {
         //Öncelikle soft assert class ından bir object oluşturmalıyız bu obje Test NG den gelir
         SoftAssert softAssert = new SoftAssert();
 
-        softAssert.assertEquals(2,2);
+        softAssert.assertEquals(2,3);//Junit deki gibi önce accepted değil actual i ister
+
 
 
     }
