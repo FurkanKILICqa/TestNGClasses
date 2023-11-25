@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bdae7ec-1f60-4680-ac48-314b8e5baafe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_20_annotations_softassert/C01_BeforeGroupAfterGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_20_annotations_softassert/C02_Priority.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C02_Priority">
     <configuration name="C01_Notasyonlar" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
@@ -62,8 +62,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C02_Priority" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch189TestNGDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.day_20_annotations_softassert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests.day_20_annotations_softassert" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_20_annotations_softassert.C02_Priority" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_Priority.youtubeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch189TestNGDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.day_20_annotations_softassert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests.day_20_annotations_softassert" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_20_annotations_softassert.C02_Priority" />
+      <option name="METHOD_NAME" value="youtubeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C02_Priority" />
+        <item itemvalue="TestNG.C02_Priority.youtubeTest" />
         <item itemvalue="TestNG.C01_Notasyonlar" />
       </list>
     </recent_temporary>
