@@ -44,8 +44,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C03_Ignore.youtubeTest">
-    <configuration name="C02_Priority" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C03_Ignore">
+    <configuration name="C03_Ignore (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
         <pattern>
@@ -54,26 +54,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="techproed.tests.day_20_annotations_softassert" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_20_annotations_softassert.C02_Priority" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_20_annotations_softassert.C03_Ignore" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_Priority.youtubeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch189TestNGDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.day_20_annotations_softassert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.day_20_annotations_softassert" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_20_annotations_softassert.C02_Priority" />
-      <option name="METHOD_NAME" value="youtubeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -115,6 +97,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C03_Ignore.facebookTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch189TestNGDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.day_20_annotations_softassert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests.day_20_annotations_softassert" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_20_annotations_softassert.C03_Ignore" />
+      <option name="METHOD_NAME" value="facebookTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C03_Ignore.youtubeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C03_Ignore.youtubeTest" />
-        <item itemvalue="TestNG.C03_Ignore.amazonTest" />
         <item itemvalue="TestNG.C03_Ignore" />
-        <item itemvalue="TestNG.C02_Priority" />
-        <item itemvalue="TestNG.C02_Priority.youtubeTest" />
+        <item itemvalue="TestNG.C03_Ignore (1)" />
+        <item itemvalue="TestNG.C03_Ignore.facebookTest" />
+        <item itemvalue="TestNG.C03_Ignore.amazonTest" />
+        <item itemvalue="TestNG.C03_Ignore.youtubeTest" />
       </list>
     </recent_temporary>
   </component>
