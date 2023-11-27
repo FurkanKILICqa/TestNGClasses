@@ -12,6 +12,9 @@ public class AmazonPage {
         Bu kod bu classtaki ögeleri driver ile iliskilendirir
         Bu sayede classtaki webelementlere erisebilmek icin @FindBy gibi PageFactory ye yardimci olan
         notasyonlari kullanilabilir hale getirir
+
+        PageFactory.initElements(Driver.getDriver(),this); kodu bu classtaki class memberlari webdriver ile eslestirir
+     Bu sayede classtaki webelementlere erismek icin PageFactory e yardimci olan  @FindBy notasyonu kullanilabilir
    */
 
 

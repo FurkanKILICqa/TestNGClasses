@@ -47,9 +47,10 @@ public class Driver {
 
     public static void closeDriver(){
         if (driver!=null){
-            driver.close();
+            driver.close();//Null ise tek başına kullanılamaz bu yüzden if ile handle ettik
             driver=null;
         }
+
     }
 
 
