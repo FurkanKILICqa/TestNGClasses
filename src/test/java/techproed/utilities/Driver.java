@@ -18,19 +18,27 @@ public class Driver {
 
     }
 
-    static WebDriver driver;//static olmayanlar static methodlar ile çalışamazlar
-
+    static WebDriver driver;
     public static WebDriver getDriver(){
-        if (driver==null){
-            driver = new ChromeDriver();
+        if(driver==null){
+            driver=new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-
         }
         return driver;
+    }
+
+    public static void closeDriver(){
+        if(driver!=null){
+            driver.close();
+            driver=null;
+        }
 
     }
-    /*
+
+
+
+/*
     Driver i her cagirdigimizda yeni bir pencere acmammasi icin bir if bloğu ile ayarlama yaptik
      if(driver==null) ile eger driver a deger atanmamis ise driver i baslat dedik, driver acik iken tekrar cagrilirsa
      driver a deger atanmis oldugu icin if block calismayacak ve dolayisiyla bu method mevcut driver i tekar return edecek
@@ -41,21 +49,6 @@ public class Driver {
     Page Object Model de driver icin TestBase classina extends yaparak kullanmak yerine Driver classi olusturularak bu classtan
     static method araciligi ile driver olusturup kullanmak tercih edilir
      */
-
-
-
-
-    public static void closeDriver(){
-        if (driver!=null){
-            driver.close();//Null ise tek başına kullanılamaz bu yüzden if ile handle ettik
-            driver=null;
-        }
-
-    }
-
-
-
-
 
 
 

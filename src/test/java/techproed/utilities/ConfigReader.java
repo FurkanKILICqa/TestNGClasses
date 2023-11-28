@@ -11,10 +11,10 @@ public class ConfigReader {
 
 
     public static String getProperty(String key) throws FileNotFoundException {
-        Properties properties = new Properties();
+        Properties properties = new Properties();//Okumak için kullanılır
 
         try {
-            FileInputStream fis = new FileInputStream("configuration.properties");
+            FileInputStream fis = new FileInputStream("configuration.properties");//Her seferinde addexception yapmamak için try chact ile yağtık
             properties.load(fis);
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -22,8 +22,5 @@ public class ConfigReader {
         return properties.getProperty(key);
     }
 
-    @Test
-    public void test01() throws FileNotFoundException {
-        System.out.println(ConfigReader.getProperty("amazonUrl"));
-    }
+
 }

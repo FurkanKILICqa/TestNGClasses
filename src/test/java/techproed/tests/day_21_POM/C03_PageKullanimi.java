@@ -7,10 +7,6 @@ import techproed.utilities.Driver;
 
 public class C03_PageKullanimi {
 
-    //deneme github
-
-
-
     @Test
     public void test01() throws InterruptedException {
         //https://opensource-demo.orangehrmlive.com/web/index.php/auth/login adrese gidelim
