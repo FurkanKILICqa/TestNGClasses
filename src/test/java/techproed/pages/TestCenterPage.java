@@ -9,11 +9,9 @@ import techproed.utilities.Driver;
 public class TestCenterPage {
 
 
-    @Test
-    public void test01() {
+    public TestCenterPage(){
 
         PageFactory.initElements(Driver.getDriver(), this);
-
     }
 
     @FindBy(id="exampleInputEmail1")

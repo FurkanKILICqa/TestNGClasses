@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bdae7ec-1f60-4680-ac48-314b8e5baafe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/TestCenterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_22_POM/C01_PropertiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_22_POM/C02_ClassWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_22_POM/C03_PositiveLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/day_21_POM/C03_PageKullanimi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_21_POM/C03_PageKullanimi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/day_22_POM/C02_ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_22_POM/C02_ClassWork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,17 +119,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigReader.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_ClassWork.test02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.utilities.*" />
+          <option name="PATTERN" value="techproed.tests.day_22_POM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.utilities" />
-      <option name="MAIN_CLASS_NAME" value="techproed.utilities.ConfigReader" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="techproed.tests.day_22_POM" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_22_POM.C02_ClassWork" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,10 +140,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C02_ClassWork.test01" />
+        <item itemvalue="TestNG.C02_ClassWork.test02" />
         <item itemvalue="TestNG.C01_PropertiesTest.test03" />
         <item itemvalue="TestNG.C01_PropertiesTest.test02" />
         <item itemvalue="TestNG.C01_PropertiesTest.test01" />
-        <item itemvalue="TestNG.ConfigReader.test01" />
       </list>
     </recent_temporary>
   </component>
