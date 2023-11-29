@@ -1,5 +1,9 @@
 package techproed.tests.day_23_excel;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import techproed.pages.BlueRentalPage;
 import techproed.utilities.ConfigReader;
@@ -30,6 +34,17 @@ public class C02_BlueRentalCarExcelTest {
 
         ExcelReader excelReader=new ExcelReader(classPath,pageName);
         String emailExcel = excelReader.getCellData(2,0);
+        String passwordExcel = excelReader.getCellData(2,1);
+
+        blueRentalPage.email.sendKeys(emailExcel);
+        blueRentalPage.password.sendKeys(passwordExcel, Keys.ENTER);
+        blueRentalPage.userNameButton.click();
+        blueRentalPage.profileButton.click();
+        String profileEmail = blueRentalPage.userEmail.getText();
+
+       Assert.assertEquals(profileEmail,emailExcel,"Emailde uyumsuzluk var");
+
+
 
 
 

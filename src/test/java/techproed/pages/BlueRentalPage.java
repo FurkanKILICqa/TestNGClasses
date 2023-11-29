@@ -36,4 +36,16 @@ public class BlueRentalPage {
 
 
 
+    @FindBy(xpath = "//*[@id='dropdown-basic-button']")
+    public WebElement userNameButton;
+
+    @FindBy(xpath = "(//*[@class='dropdown-item'])[2]")
+    public WebElement profileButton;
+
+
+    @FindBy(xpath = "//em")
+    public  WebElement userEmail;
+
+
+
 }
