@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import techproed.pages.BlueRentalPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
+import techproed.utilities.ExcelReader;
 
 import java.io.FileNotFoundException;
 
@@ -26,6 +27,11 @@ public class C02_BlueRentalCarExcelTest {
 
         String classPath = "src\\test\\java\\techproed\\resources\\mysmoketestdata.xlsx";
         String pageName="customer_info";
+
+        ExcelReader excelReader=new ExcelReader(classPath,pageName);
+        String emailExcel = excelReader.getCellData(2,0);
+
+
 
 
     }
