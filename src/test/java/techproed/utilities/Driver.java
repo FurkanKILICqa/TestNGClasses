@@ -2,7 +2,9 @@ package techproed.utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
+import java.io.FileNotFoundException;
 import java.time.Duration;
 
 public class Driver {
@@ -19,8 +21,17 @@ public class Driver {
     }
 
     static WebDriver driver;
-    public static WebDriver getDriver(){
+    public static WebDriver getDriver() throws FileNotFoundException {
         if(driver==null){
+           switch (ConfigReader.getProperty("browser")){
+                case "chrome" :
+                    driver = new ChromeDriver();
+                    break;
+
+                case "edge" :
+                    driver = new EdgeDriver();
+                    break;
+            }
             driver=new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));

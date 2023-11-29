@@ -11,10 +11,10 @@ public class ConfigReader {
 
 
     public static String getProperty(String key) throws FileNotFoundException {
-        Properties properties = new Properties();//Okumak için kullanılır
+        Properties properties=new Properties();
 
         try {
-            FileInputStream fis = new FileInputStream("configuration.properties");//Her seferinde addexception yapmamak için try chact ile yağtık
+            FileInputStream fis = new FileInputStream("configuration.properties");
             properties.load(fis);
         } catch (IOException e) {
             throw new RuntimeException(e);
