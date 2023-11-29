@@ -46,8 +46,5 @@ public class C02_BlueRentalCarExcelTest {
         //sayfayı kapatalım
        Driver.closeDriver();
 
-
-
-
     }
 }
