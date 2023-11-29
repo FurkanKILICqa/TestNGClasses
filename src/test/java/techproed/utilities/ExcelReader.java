@@ -1,5 +1,6 @@
 package techproed.utilities;
 
+import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
@@ -24,10 +25,18 @@ public class ExcelReader {
         try {
             FileInputStream fis = new FileInputStream(dosyaYolu);
             workbook=WorkbookFactory.create(fis);
-            workbook.getSheet(sayfaIsmi);
+            sheet= workbook.getSheet(sayfaIsmi);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public String getCellData(int satir,int sutun){
+
+     Cell cell= sheet.getRow(satir).getCell(sutun);
+     return cell.toString();
+
+
     }
 
 
