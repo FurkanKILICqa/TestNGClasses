@@ -5,12 +5,14 @@ import org.testng.annotations.Test;
 import techproed.pages.AmazonPage;
 import techproed.utilities.Driver;
 
+import java.io.FileNotFoundException;
+
 public class C02_PageKullanımı {
 
 
 
     @Test
-    public void test01() {
+    public void test01() throws FileNotFoundException {
         //amazon sayfasina gidelim
         Driver.getDriver().get("https://amazon.com");
         Driver.getDriver().navigate().refresh();

@@ -6,10 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import techproed.utilities.Driver;
 
+import java.io.FileNotFoundException;
+
 public class TestCenterPage {
 
 
-    public TestCenterPage(){
+    public TestCenterPage() throws FileNotFoundException {
 
         PageFactory.initElements(Driver.getDriver(), this);
     }

@@ -5,10 +5,12 @@ import org.testng.annotations.Test;
 import techproed.pages.OpenSourcePage;
 import techproed.utilities.Driver;
 
+import java.io.FileNotFoundException;
+
 public class C03_PageKullanimi {
 
     @Test
-    public void test01() throws InterruptedException {
+    public void test01() throws InterruptedException, FileNotFoundException {
         //https://opensource-demo.orangehrmlive.com/web/index.php/auth/login adrese gidelim
         //kullaniciAdi, kullaniciSifre, submitButton elementlerini locate edelim login olalım
         //kullanici=Admin

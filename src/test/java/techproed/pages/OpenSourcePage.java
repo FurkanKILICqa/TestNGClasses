@@ -5,9 +5,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import techproed.utilities.Driver;
 
+import java.io.FileNotFoundException;
+
 public class OpenSourcePage {
 
-    public OpenSourcePage() {
+    public OpenSourcePage() throws FileNotFoundException {
         PageFactory.initElements(Driver.getDriver(), this);
 
     }

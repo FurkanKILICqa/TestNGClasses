@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import techproed.utilities.Driver;
 
+import java.io.FileNotFoundException;
+
 public class AmazonPage {
 
    /*
@@ -18,7 +20,7 @@ public class AmazonPage {
    */
 
 
-    public AmazonPage() {
+    public AmazonPage() throws FileNotFoundException {
         PageFactory.initElements(Driver.getDriver(),this);
 
     }
