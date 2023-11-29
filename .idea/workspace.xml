@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bdae7ec-1f60-4680-ac48-314b8e5baafe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_23_excel/C01_ExcelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_23_excel/C02_BlueRentalCarExcelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ExcelReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,18 +51,18 @@
       <recent name="C:\Users\hpvic\IdeaProjects\Batch189TestNGDT\src\test\java\techproed\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C02_ClassWork.test01">
-    <configuration name="C01_PropertiesTest.test02" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C01_ExcelTest.test01">
+    <configuration name="C01_ExcelTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.day_22_POM.*" />
+          <option name="PATTERN" value="techproed.tests.day_23_excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.day_22_POM" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_22_POM.C01_PropertiesTest" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="PACKAGE_NAME" value="techproed.tests.day_23_excel" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_23_excel.C01_ExcelTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C01_ExcelTest.test01" />
         <item itemvalue="TestNG.C02_ClassWork.test01" />
         <item itemvalue="TestNG.C03_PositiveLoginTest.test01" />
         <item itemvalue="TestNG.C02_ClassWork.test02" />
         <item itemvalue="TestNG.C01_PropertiesTest.test03" />
-        <item itemvalue="TestNG.C01_PropertiesTest.test02" />
       </list>
     </recent_temporary>
   </component>

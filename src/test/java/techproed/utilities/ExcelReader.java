@@ -39,6 +39,13 @@ public class ExcelReader {
 
     }
 
+    public int rowCount(){
+
+       return sheet.getLastRowNum();
+
+
+    }
+
 
 
 
