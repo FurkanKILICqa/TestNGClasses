@@ -31,6 +31,8 @@ public class Driver {
                 case "edge" :
                     driver = new EdgeDriver();
                     break;
+               default://else mantığı
+                   driver=new ChromeDriver();//Eğer configiration class ıda pc de olmayan browser girer ve hata alırsak bu çalışacak
             }
             driver=new ChromeDriver();
             driver.manage().window().maximize();
