@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bdae7ec-1f60-4680-ac48-314b8e5baafe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_23_excel/C04_DataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/day_23_excel/C03_BlueRentalCarExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_23_excel/C03_BlueRentalCarExcelTest.java" afterDir="false" />
     </list>

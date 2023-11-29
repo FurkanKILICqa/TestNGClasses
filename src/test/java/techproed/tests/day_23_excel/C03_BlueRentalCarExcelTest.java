@@ -1,6 +1,7 @@
 package techproed.tests.day_23_excel;
 
 import org.openqa.selenium.Keys;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import techproed.pages.BlueRentalPage;
 import techproed.utilities.ConfigReader;
@@ -48,11 +49,16 @@ public class C03_BlueRentalCarExcelTest {
             blueRentalPage.email.sendKeys(email);
             blueRentalPage.password.sendKeys(password, Keys.ENTER);
             blueRentalPage.loginVerify.click();
+           // Assert.assertTrue(blueRentalPage.profile.isDisplayed());
+           // blueRentalPage.logoutButton.click();
+           // blueRentalPage.okButton.click();
 
 
             break;
 
         }
+
+        //Negatif testi kendi hazırladığımız testlerile yapabiliriz
 
 
 
