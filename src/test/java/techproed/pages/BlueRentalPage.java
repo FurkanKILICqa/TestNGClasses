@@ -46,6 +46,12 @@ public class BlueRentalPage {
     @FindBy(xpath = "//em")
     public  WebElement userEmail;
 
+    @FindBy(xpath = "//*[.='Logout']")
+    public WebElement logout;
+
+    @FindBy(xpath = "//*[.='OK']")
+    public WebElement okButton;
+
 
 
 }

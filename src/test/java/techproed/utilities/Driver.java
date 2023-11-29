@@ -34,7 +34,7 @@ public class Driver {
                default://else mantığı
                    driver=new ChromeDriver();//Eğer configiration class ıda pc de olmayan browser girer ve hata alırsak bu çalışacak
             }
-            driver=new ChromeDriver();
+
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         }

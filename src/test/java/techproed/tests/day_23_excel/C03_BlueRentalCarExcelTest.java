@@ -49,14 +49,13 @@ public class C03_BlueRentalCarExcelTest {
             blueRentalPage.email.sendKeys(email);
             blueRentalPage.password.sendKeys(password, Keys.ENTER);
             blueRentalPage.loginVerify.click();
-           // Assert.assertTrue(blueRentalPage.profile.isDisplayed());
-           // blueRentalPage.logoutButton.click();
-           // blueRentalPage.okButton.click();
-
-
-            break;
-
+            Assert.assertTrue(blueRentalPage.profileButton.isDisplayed());
+            blueRentalPage.logout.click();
+            blueRentalPage.okButton.click();
         }
+
+        //sayfayi kapatalim
+        Driver.closeDriver();
 
         //Negatif testi kendi hazırladığımız testlerile yapabiliriz
 
