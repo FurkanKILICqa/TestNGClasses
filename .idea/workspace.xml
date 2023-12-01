@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bdae7ec-1f60-4680-ac48-314b8e5baafe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/smokeTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/DataProviderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_24_dataprovider_xmlfiles/C04DataProvidersUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/DataProviderUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/day_24_dataprovider_xmlfiles/C03_DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_24_dataprovider_xmlfiles/C03_DataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/belirliClasslariCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/belirliClasslariCalistirma.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +37,18 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/hpvic/IdeaProjects/Batch189TestNGDT"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hpvic\IdeaProjects\Batch189TestNGDT" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hpvic\IdeaProjects\Batch189TestNGDT\src\test\java\techproed\resources" />
     </key>

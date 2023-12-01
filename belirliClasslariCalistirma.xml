@@ -1,10 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Furkan'sProject">
     <test name="Smoke Test">
-        <packages>
-            <package name="techproed.tests.day_20_annotations_softassert"></package>
-            <package name="techproed.tests.day_19_annotations"></package>
-        </packages>
+        <classes>
+            <class name="techproed.tests.day_19_annotations.C01_Notasyonlar"></class>
+            <class name="techproed.tests.day_21_POM.C01_DriverIlkTest"></class>
+            <class name="techproed.tests.day_21_POM.C02_PageKullanımı"></class>
+        </classes>
         
     </test>
 </suite>
