@@ -3,23 +3,35 @@ package techproed.tests.day_24_dataprovider_xmlfiles;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import techproed.pages.AmazonPage;
 import techproed.pages.GooglePage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
+import techproed.utilities.ReusableMethods;
 
 import java.io.FileNotFoundException;
 
 public class C02_DataProvider {
 
+    /*
+    1) Bir data provideri birden fazla test methodu icin kullanmak mumkundür
 
-    @DataProvider
+    2) Bir data provideri belli methodlara özel olarak specificlesitirebiliriz
+    Bunu yapmak icin @DataProvider(name = "googleurunler") seklinde parantez icinde name parametresi tanimlariz
+    bu sekilde vermis olduguumz isim dataproviderin kendi ismini gecersiz kilar yani artik bu isim gecerli olur
+    böylece bu dataprovider sadece bu isme sahip olan test methoduna data provide eder
+     */
+
+    @DataProvider(name="googleurunler")//Artık sadece bu name e özel çalişsir arik burada verdiğimiz isim geçerli alttaki isim değil
     public static Object[][] urunler() {
         return new Object[][]{
                 {"laptop"},{"iphone"},{"mouse"}
         };
     }
 
-    @Test(dataProvider = "urunler")
+
+
+    @Test(dataProvider = "googleurunler")
     public void test01(String data) throws FileNotFoundException {
 
         //Google sayfasına gidelim
@@ -33,11 +45,30 @@ public class C02_DataProvider {
 
     }
 
+    @DataProvider
+    public static Object[][] amazonurunler() {
+        return new Object[][]{
+                {"laptop"},{"iphone"},{"mouse"}
 
-    @Test
-    public void test02() {
+
+        };
+    }
 
 
+    @Test(dataProvider = "amazonurunler")
+    public void test02(String data) throws FileNotFoundException {
+
+        //amazon sayfasına gidelim,
+        Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
+        ReusableMethods.bekle(2);
+        Driver.getDriver().navigate().refresh();
+
+        //aramakutusunda dataprovider'dan gelen verileri aratalım
+        new AmazonPage().searcBox.sendKeys(data,Keys.ENTER);
+
+
+        //sayfayı kapatınız
+        Driver.closeDriver();
 
     }
 }
