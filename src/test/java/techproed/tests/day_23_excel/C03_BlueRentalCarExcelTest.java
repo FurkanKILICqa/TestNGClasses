@@ -52,6 +52,7 @@ public class C03_BlueRentalCarExcelTest {
             Assert.assertTrue(blueRentalPage.profileButton.isDisplayed());
             blueRentalPage.logout.click();
             blueRentalPage.okButton.click();
+
         }
 
         //sayfayi kapatalim

@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bdae7ec-1f60-4680-ac48-314b8e5baafe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/GooglePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_24_dataprovider_xmlfiles/C01_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_24_dataprovider_xmlfiles/C02_DataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/day_23_excel/C03_BlueRentalCarExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_23_excel/C03_BlueRentalCarExcelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +54,17 @@
       <recent name="C:\Users\hpvic\IdeaProjects\Batch189TestNGDT\src\test\java\techproed\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C03_BlueRentalCarExcelTest.test01">
-    <configuration name="C01_ExcelTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C02_DataProvider.test01">
+    <configuration name="C01_DataProvider.test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.day_23_excel.*" />
+          <option name="PATTERN" value="techproed.tests.day_24_dataprovider_xmlfiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.day_23_excel" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_23_excel.C01_ExcelTest" />
+      <option name="PACKAGE_NAME" value="techproed.tests.day_24_dataprovider_xmlfiles" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_24_dataprovider_xmlfiles.C01_DataProvider" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -70,17 +73,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_BlueRentalCarExcelTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_DataProvider.test02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.day_23_excel.*" />
+          <option name="PATTERN" value="techproed.tests.day_24_dataprovider_xmlfiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.day_23_excel" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_23_excel.C02_BlueRentalCarExcelTest" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="techproed.tests.day_24_dataprovider_xmlfiles" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_24_dataprovider_xmlfiles.C01_DataProvider" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,16 +91,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ClassWork.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_DataProvider.test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.day_22_POM.*" />
+          <option name="PATTERN" value="techproed.tests.day_24_dataprovider_xmlfiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.day_22_POM" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_22_POM.C02_ClassWork" />
+      <option name="PACKAGE_NAME" value="techproed.tests.day_24_dataprovider_xmlfiles" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_24_dataprovider_xmlfiles.C02_DataProvider" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -124,17 +127,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_PositiveLoginTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeWork.testte01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.day_22_POM.*" />
+          <option name="PATTERN" value="techproed.tests.zPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.day_22_POM" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_22_POM.C03_PositiveLoginTest" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="techproed.tests.zPractice" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.zPractice.HomeWork" />
+      <option name="METHOD_NAME" value="testte01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C02_DataProvider.test01" />
+        <item itemvalue="TestNG.C01_DataProvider.test02" />
+        <item itemvalue="TestNG.C01_DataProvider.test01" />
         <item itemvalue="TestNG.C03_BlueRentalCarExcelTest.test01" />
-        <item itemvalue="TestNG.C01_ExcelTest.test01" />
-        <item itemvalue="TestNG.C02_BlueRentalCarExcelTest.test01" />
-        <item itemvalue="TestNG.C02_ClassWork.test01" />
-        <item itemvalue="TestNG.C03_PositiveLoginTest.test01" />
+        <item itemvalue="TestNG.HomeWork.testte01" />
       </list>
     </recent_temporary>
   </component>

@@ -52,6 +52,11 @@ public class BlueRentalPage {
     @FindBy(xpath = "//*[.='OK']")
     public WebElement okButton;
 
+    @FindBy(xpath = "(//*[.='User with email ceyhancan@bluerentalcars.com not found'])[5]")
+    public WebElement alert;
+
+
+
 
 
 }
