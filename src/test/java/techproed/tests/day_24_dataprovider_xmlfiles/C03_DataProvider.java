@@ -31,6 +31,7 @@ public class C03_DataProvider {
                     {"johnson@bluerentalcars.com", "johnson"}
             };
         }
+        //Excel den çekip de yapabiliriz ama normal kullanımı üstteki gibi
 
         @Test(dataProvider = "credentials")
         public void test01(String email,String password) throws FileNotFoundException {

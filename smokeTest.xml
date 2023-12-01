@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Furkan'sProject">
+    <test name="Smoke Test">
+        <packages>
+            <package name="techproed.tests.day_20_annotations_softassert"></package>
+            <package name="techproed.tests.day_19_annotations"></package>
+        </packages>
+        
+    </test>
+</suite>
+
+
+<!--ctrc + / yorum bu şekilde yapılır burada-->
