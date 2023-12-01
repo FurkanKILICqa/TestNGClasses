@@ -54,24 +54,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/smokeTest.xml">
-    <configuration name="C02_DataProvider.test01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch189TestNGDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.day_24_dataprovider_xmlfiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.day_24_dataprovider_xmlfiles" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_24_dataprovider_xmlfiles.C02_DataProvider" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C02_DataProvider.test02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
@@ -126,6 +108,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/belirliClasslariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch189TestNGDT" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/belirliClasslariCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/smokeTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/smokeTest.xml" />
@@ -139,10 +131,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/smokeTest.xml" />
+        <item itemvalue="TestNG.C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/belirliClasslariCalistirma.xml" />
         <item itemvalue="TestNG.C04DataProvidersUtils.test01" />
         <item itemvalue="TestNG.C03_DataProvider.test01" />
         <item itemvalue="TestNG.C02_DataProvider.test02" />
-        <item itemvalue="TestNG.C02_DataProvider.test01" />
       </list>
     </recent_temporary>
   </component>
