@@ -11,7 +11,7 @@ public class C02_PageKullanımı {
 
 
 
-    @Test
+    @Test(groups = "smoke")//Burada belirli
     public void test01() throws FileNotFoundException {
         //amazon sayfasina gidelim
         Driver.getDriver().get("https://amazon.com");

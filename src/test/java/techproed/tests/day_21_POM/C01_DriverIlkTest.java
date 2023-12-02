@@ -8,7 +8,7 @@ import java.io.FileNotFoundException;
 public class C01_DriverIlkTest {
 
 
-    @Test
+    @Test(groups = "smoke")
     public void test01() throws FileNotFoundException {
         Driver.closeDriver();
         Driver.getDriver().get("https://www.amazon.com.tr/");
