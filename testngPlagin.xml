@@ -2,12 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/src/test/java/techproed/tests/day_25_xmlfiles_pralleltesting/C01_Paralleltest.java">
+          name="C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/src/test/java/techproed/tests/day_19_annotations">
         <classes>
-            <class name="techproed.tests.day_25_xmlfiles_pralleltesting.C01_Paralleltest">
+            <class name="techproed.tests.day_19_annotations.C01_Notasyonlar">
                 <methods>
                     <include name="test01"/>
                     <include name="test02"/>
+                    <include name="test03"/>
                 </methods>
             </class>
         </classes>
