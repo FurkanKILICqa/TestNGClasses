@@ -11,12 +11,7 @@ public class Driver {
 
     private Driver() {
 
-        /*
-        POM de Driver classindan object olusturarak getDriver methodu kullanimini engellemeliyiz
-        Bu nedenle singleton pattern kullanimi benimsenmistir
-        Singleton Pattern : Bir classin farkli classlardan object olusturarak kullanilmasini engellemek icin kullanilir
-        bu yüzden constructor i private yaptik
-         */
+
 
     }
 
@@ -64,5 +59,11 @@ public class Driver {
      */
 
 
+/*
+        POM de Driver classindan object olusturarak getDriver methodu kullanimini engellemeliyiz
+        Bu nedenle singleton pattern kullanimi benimsenmistir
+        Singleton Pattern : Bir classin farkli classlardan object olusturarak kullanilmasini engellemek icin kullanilir
+        bu yüzden constructor i private yaptik
+         */
 
 }
