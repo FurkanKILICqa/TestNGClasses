@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bdae7ec-1f60-4680-ac48-314b8e5baafe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/belirliClasslariGruplari.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/day_21_POM/C01_DriverIlkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_21_POM/C01_DriverIlkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/belirliGruplariClistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/belirliGruplariClistirma.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +34,22 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2YdVPfS1NfyyejShaknOr2e9pr4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hpvic/IdeaProjects/Batch189TestNGDT&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/hpvic/IdeaProjects/Batch189TestNGDT",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hpvic\IdeaProjects\Batch189TestNGDT" />
@@ -54,7 +58,7 @@
       <recent name="C:\Users\hpvic\IdeaProjects\Batch189TestNGDT\src\test\java\techproed\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/belirliClasslariGruplari.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/testng.xml">
     <configuration name="C02_DataProvider.test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
@@ -119,9 +123,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/smokeTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/smokeTest.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -131,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/testng.xml" />
         <item itemvalue="TestNG.C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/belirliClasslariGruplari.xml" />
         <item itemvalue="TestNG.C04DataProvidersUtils.test01" />
         <item itemvalue="TestNG.C02_DataProvider.test02" />
         <item itemvalue="TestNG.C02_DataProvider.test01" />
-        <item itemvalue="TestNG.C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/smokeTest.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -160,5 +164,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

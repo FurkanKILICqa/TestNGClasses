@@ -9,10 +9,17 @@
             </run>
         </groups>
         <packages>
-            <package name="techproed.tests.day_21_POM"></package>
+            <package name="techproed.*"></package>
         </packages>
     </test>
 </suite>
 
 
-<!--ctrc + / yorum bu şekilde yapılır burada-->
+<!--ctrc + / yorum bu şekilde yapılır burada
+* koyarak hepsini çalistirabiliriz
+non functional test medri öğren !!
+
+
+
+
+-->
