@@ -24,7 +24,7 @@ public class DataProviderUtils {
                 { 17 },   // Alt sınırın altı
                 { -1 },  // Negatif değer
                 { 0 },   // Sıfır
-                { 101 }   // Üst sınırın üstü
+                { 101 }   // Üst sınırın üstü......
         };
     }
 

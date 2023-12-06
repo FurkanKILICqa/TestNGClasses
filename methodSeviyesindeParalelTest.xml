@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="2">
+    <test verbose="2" preserve-order="true"
+          name="paralel test">
+        <classes>
+            <class name="techproed.tests.day_25_xmlfiles_pralleltesting.C01_Paralleltest">
+                <methods>
+                    <include name="test02"/>
+                    <include name="test01"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+        <!--ctrc + / yorum bu şekilde yapılır burada
+
+        preserve-order="true" yazılan sıra ile çalıştırmaya yarar
+        paralel test bir tane pencere üzerinden birden çok test yapmamıza yarar
+
+
+        preserve-order="true" ==> sıra belirrmek için kullanırız
+        parallel="methods" ==> bu paralel test yapmak istediğimizi gösterir
+        thread-count="2" ==>kaç pencere açılmasını istiyorsak sayı belirtiriz
+
+        zamandan tasarruf sağlayacağız ama pc performansına da gücvenmiyoruz..
+         o zaman thread-count 2 deyip onlarca method veya test koşabiliriz
+
+        -->

@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="methods" thread-count="2">
+<suite name="All Test Suite" parallel="classes" thread-count="2">
     <test verbose="2" preserve-order="true"
-          name="paralel test">
+          name="classlari parallel calistirma">
         <classes>
-            <class name="techproed.tests.day_25_xmlfiles_pralleltesting.C01_Paralleltest">
-                <methods>
-                    <include name="test02"/>
-                    <include name="test01"/>
-                </methods>
-            </class>
+            <class name="techproed.tests.day_25_xmlfiles_pralleltesting.C02_Paralleltest"/>
+            <class name="techproed.tests.day_25_xmlfiles_pralleltesting.C01_Paralleltest"/>
         </classes>
     </test>
 </suite>
 
-        <!--ctrc + / yorum bu şekilde yapılır burada
-
-        preserve-order="true" yazılan sıra ile çalıştırmaya yarar
-        paralel test bir tane pencere üzerinden birden çok test yapmamıza yarar
 
 
-        preserve-order="true" ==> sıra belirrmek için kullanırız
-        parallel="methods" ==> bu paralel test yapmak istediğimizi gösterir
-        thread-count="2" ==>
-        -->
+
+
+
