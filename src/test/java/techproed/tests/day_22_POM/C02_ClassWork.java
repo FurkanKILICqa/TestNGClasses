@@ -41,7 +41,7 @@ public class C02_ClassWork {
 
 
 
-        //sayfayı kapatınız......
+        //sayfayı kapatınız......?...
         Driver.closeDriver();
 
     }
