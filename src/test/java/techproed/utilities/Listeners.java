@@ -46,17 +46,26 @@ public class Listeners implements ITestListener, IRetryAnalyzer, IAnnotationTran
     public void onTestSkipped(ITestResult result) {
         System.out.println("onTestSkipped==> sadece atlanan testlerden sonra bir kere cagirilir  :  "+result.getName());
     }
+
+    /*
+    Bu method sadece Fail olan test methodlarimizi tekrar calistirir
+    Suanki haliyle  maxRetryCount = 1; kac yazarsaniz o kadar tekrar calistiririlr
+     */
+
     private static int retryCount = 0;
     private static final int maxRetryCount = 1;
     @Override
     public boolean retry(ITestResult result) {
         if (retryCount < maxRetryCount) {
             retryCount++;
-            return true;
+            return true;//Tekrar tekrar çalistir demek
         }
         return false;
     }
-
+    /*
+    Bu method retry methodu icin yardimci bir methodtur
+    teknik olarak test notasyonlarini, classlari, constructorlari ve methodlari transform(donusturme) etmemize olanak saglar
+     */
 
     @Override
     public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
