@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bdae7ec-1f60-4680-ac48-314b8e5baafe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/Allower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_26_Listeners/ListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/zProject/C01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Listeners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day26listeners/C02_ListenersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/day_22_POM/C03_PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_22_POM/C03_PositiveLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ReusableMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/SingletonDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/SingletonDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/day_26_Listeners/C02_ListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_26_Listeners/C02_ListenerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listeners.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,22 +60,22 @@
       <recent name="C:\Users\hpvic\IdeaProjects\Batch189TestNGDT\src\test\java\techproed\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="techproed.tests.day_26_Listeners" />
       <recent name="techproed.tests.day_25_xmlfiles_pralleltesting" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ListenerTest">
-    <configuration name="C01.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/Listeners.xml">
+    <configuration name="C01_ListenerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.zProject.*" />
+          <option name="PATTERN" value="techproed.tests.day_26_Listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.zProject" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.zProject.C01" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="techproed.tests.day_26_Listeners" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_26_Listeners.C01_ListenerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,17 +136,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListenerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/Listeners.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.day_26_Listeners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.day_26_Listeners" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_26_Listeners.ListenerTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Listeners.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -160,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ListenerTest" />
+        <item itemvalue="TestNG.C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/Listeners.xml" />
+        <item itemvalue="TestNG.C01_ListenerTest" />
         <item itemvalue="TestNG.C01.test03" />
         <item itemvalue="TestNG.C03_PositiveLoginTest.test01" />
         <item itemvalue="TestNG.C01.test02" />
-        <item itemvalue="TestNG.C01.test01" />
       </list>
     </recent_temporary>
   </component>

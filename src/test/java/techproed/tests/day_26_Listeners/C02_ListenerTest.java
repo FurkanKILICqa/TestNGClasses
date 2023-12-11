@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import java.util.NoSuchElementException;
 
-@Listeners(techproed.utilities.Listeners.class)
+
 public class C02_ListenerTest {
 
     @Test

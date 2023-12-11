@@ -1,15 +1,16 @@
 package techproed.utilities;
 
-import org.testng.ITestContext;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
+import org.testng.*;
+import org.testng.annotations.ITestAnnotation;
 
 import java.io.FileNotFoundException;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 
-public class Listeners implements ITestListener {
+public class Listeners implements ITestListener, IRetryAnalyzer, IAnnotationTransformer {
 
     //ITestListener bir interface dir daloaysıyla implements yaparız
-
+    //IRetryAnalyzer sadece fail olan testleri tekrar çalıştırır IAnnotationTransformer yardımcısıdır birlikte kullanılır
 
     @Override
     public void onStart(ITestContext context) {
@@ -44,5 +45,22 @@ public class Listeners implements ITestListener {
     @Override
     public void onTestSkipped(ITestResult result) {
         System.out.println("onTestSkipped==> sadece atlanan testlerden sonra bir kere cagirilir  :  "+result.getName());
+    }
+    private static int retryCount = 0;
+    private static final int maxRetryCount = 1;
+    @Override
+    public boolean retry(ITestResult result) {
+        if (retryCount < maxRetryCount) {
+            retryCount++;
+            return true;
+        }
+        return false;
+    }
+
+
+    @Override
+    public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
+
+        annotation.setRetryAnalyzer(Listeners.class);
     }
 }
