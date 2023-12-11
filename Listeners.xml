@@ -9,7 +9,7 @@
     <test verbose="2" preserve-order="true"
           name="XML ile listeners">
         <classes>
-            <class name="">
+            <class name="techproed.tests.day_26_Listeners.C02_ListenerTest">
                 <methods>
                     <include name="test01"/>
                     <include name="test02"/>

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bdae7ec-1f60-4680-ac48-314b8e5baafe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day26listeners/C01_ListenersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/day_26_Listeners/C03_ListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/testOutputs/Screenshots/test0211122023_124034.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/testOutputs/Screenshots/test0211122023_124049.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Listeners.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Listeners.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listeners.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,53 +81,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01.test02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_ListenerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.zProject.*" />
+          <option name="PATTERN" value="techproed.tests.day_26_Listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.zProject" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.zProject.C01" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="techproed.tests.day_26_Listeners" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_26_Listeners.C03_ListenerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01.test03" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_ListenerTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.zProject.*" />
+          <option name="PATTERN" value="techproed.tests.day_26_Listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.zProject" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.zProject.C01" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_PositiveLoginTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch189TestNGDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.day_22_POM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.day_22_POM" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_22_POM.C03_PositiveLoginTest" />
+      <option name="PACKAGE_NAME" value="techproed.tests.day_26_Listeners" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_26_Listeners.C03_ListenerTest" />
       <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_ListenerTest.test02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch189TestNGDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.day_26_Listeners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests.day_26_Listeners" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.day_26_Listeners.C03_ListenerTest" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,10 +136,21 @@
     </configuration>
     <configuration name="C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/Listeners.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch189TestNGDT" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Listeners.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/hpvic/IdeaProjects/Batch189TestNGDT/Listeners.xml" />
+        <item itemvalue="TestNG.C03_ListenerTest" />
+        <item itemvalue="TestNG.C03_ListenerTest.test01" />
+        <item itemvalue="TestNG.C03_ListenerTest.test02" />
         <item itemvalue="TestNG.C01_ListenerTest" />
-        <item itemvalue="TestNG.C01.test03" />
-        <item itemvalue="TestNG.C03_PositiveLoginTest.test01" />
-        <item itemvalue="TestNG.C01.test02" />
       </list>
     </recent_temporary>
   </component>
