@@ -37,7 +37,7 @@ public class C03_PositiveLoginTest {
         blueRentalPage.password.sendKeys(ConfigReader.getProperty("blueRentalPassword"), Keys.ENTER);
 
         Assert.assertTrue(blueRentalPage.loginVerify.getText().contains("Batch189"));
-
+        System.out.println(blueRentalPage.loginVerify);
         Driver.closeDriver();
 
 

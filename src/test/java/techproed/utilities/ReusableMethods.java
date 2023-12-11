@@ -15,6 +15,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
+import static techproed.utilities.Driver.driver;
+
 public class ReusableMethods {
 
 
@@ -182,6 +184,16 @@ public class ReusableMethods {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         String attribute_Value = (String) js.executeScript("return document.getElementById('" + id + "')." + attributeName);
         System.out.println("Attribute Value: = " + attribute_Value);
+    }
+
+    public static void jsClick(WebElement webElement){
+
+        try {
+            webElement.click();
+        } catch (Exception e) {
+            JavascriptExecutor js= (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].click();",webElement);
+        }
     }
 
 

@@ -10,7 +10,7 @@ import java.util.Properties;
 public class ConfigReader {
 
 
-    public static String getProperty(String key) throws FileNotFoundException {
+    public static String getProperty(String key){
         Properties properties=new Properties();
 
         try {
